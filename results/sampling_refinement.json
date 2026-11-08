@@ -1,0 +1,2435 @@
+{
+  "G0": {
+    "base_step": 0.25,
+    "regular_refined_step": 0.125,
+    "initial_layer_step": 0.025,
+    "window": [
+      0,
+      2000
+    ],
+    "sample_count": 16325,
+    "original_overlap_count": 8001,
+    "max_overlap_C_difference": 1.3822276656583199e-14,
+    "max_overlap_scaled_difference": null,
+    "homogeneous_block_diagnostics": {
+      "(0, 2)": {
+        "B22_factor_reconstruction": 5.575286215961734e-19,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 2.14653235580921,
+            "eigen_residual": 3.0022079800606495e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 1.0578889363890034e-14
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 1.3506215888602595,
+            "eigen_residual": 1.498063915356953e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 1.591186869333728e-15
+          }
+        ],
+        "max_pair_top_row_change": 1.2987371406672612e-15
+      },
+      "(0, 3)": {
+        "B22_factor_reconstruction": 5.575286215961734e-19,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 2.14653235580921,
+            "eigen_residual": 3.0022079800606495e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 1.4269848388124606e-14
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 1.3506215888602595,
+            "eigen_residual": 1.498063915356953e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 1.1663587155245494e-15
+          }
+        ],
+        "max_pair_top_row_change": 3.1988696005125303e-15
+      }
+    },
+    "events": [
+      {
+        "kind": "signed_min",
+        "t": 96.34732866329189,
+        "signed_C": 0.10200284470788572,
+        "C": 0.10200284470788572,
+        "bracket": [
+          96.25,
+          96.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 154.2598084340795,
+        "signed_C": 0.26875346686776325,
+        "C": 0.26875346686776325,
+        "bracket": [
+          154.125,
+          154.375
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 292.78837105282776,
+        "signed_C": 0.08307087161564157,
+        "C": 0.08307087161564157,
+        "bracket": [
+          292.625,
+          292.875
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 330.42495117652203,
+        "signed_C": 0.09126195768769664,
+        "C": 0.09126195768769664,
+        "bracket": [
+          330.25,
+          330.5
+        ]
+      }
+    ],
+    "computed_zero_count_full_propagation": 0,
+    "computed_zero_count_in_display_window": 0,
+    "strict_positive_min": 8.92547244221687e-05,
+    "state_diagnostics": {
+      "min_pair_eigenvalue": -4.9486036539958795e-17,
+      "max_trace_error": 2.5224267119483557e-13,
+      "max_hermiticity_error": 5.647850449853784e-16
+    },
+    "factor_diagnostics": {
+      "min_correlation_eigenvalue": -4.41783805880423e-16,
+      "max_factor_reconstruction_error": 2.6645352591003757e-15,
+      "first_bad_sample": null
+    }
+  },
+  "G0+24": {
+    "base_step": 0.25,
+    "regular_refined_step": 0.125,
+    "initial_layer_step": 0.025,
+    "window": [
+      0,
+      2000
+    ],
+    "sample_count": 16325,
+    "original_overlap_count": 8001,
+    "max_overlap_C_difference": 7.271960811294775e-15,
+    "max_overlap_scaled_difference": null,
+    "homogeneous_block_diagnostics": {
+      "(0, 2)": {
+        "B22_factor_reconstruction": 5.575286215961734e-19,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 3.596365552661086,
+            "eigen_residual": 2.8689430803465295e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 5.1469944211195045e-15
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 1.9999999999999971,
+            "eigen_residual": 1.833905549839744e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 2.3205802544840265e-15
+          }
+        ],
+        "max_pair_top_row_change": 1.0220396121683637e-15
+      },
+      "(0, 3)": {
+        "B22_factor_reconstruction": 5.575286215961734e-19,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 3.596365552661086,
+            "eigen_residual": 2.8689430803465295e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 5.147148770264896e-15
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 1.9999999999999971,
+            "eigen_residual": 1.833905549839744e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 1.2033130434092924e-15
+          }
+        ],
+        "max_pair_top_row_change": 2.765427420901012e-16
+      }
+    },
+    "events": [
+      {
+        "kind": "signed_min",
+        "t": 68.38730634407872,
+        "signed_C": 0.07389847800903543,
+        "C": 0.07389847800903543,
+        "bracket": [
+          68.25,
+          68.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 162.228390446823,
+        "signed_C": 0.16574552061857215,
+        "C": 0.16574552061857215,
+        "bracket": [
+          162.125,
+          162.375
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 248.68133785076952,
+        "signed_C": 0.07762376887035764,
+        "C": 0.07762376887035764,
+        "bracket": [
+          248.5,
+          248.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 282.9559881079261,
+        "signed_C": 0.0821280067303233,
+        "C": 0.0821280067303233,
+        "bracket": [
+          282.875,
+          283.125
+        ]
+      }
+    ],
+    "computed_zero_count_full_propagation": 0,
+    "computed_zero_count_in_display_window": 0,
+    "strict_positive_min": 0.0005250527112602261,
+    "state_diagnostics": {
+      "min_pair_eigenvalue": -5.5101881515003284e-18,
+      "max_trace_error": 6.684652831268068e-13,
+      "max_hermiticity_error": 6.025261774537219e-16
+    },
+    "factor_diagnostics": {
+      "min_correlation_eigenvalue": -2.771178442890938e-16,
+      "max_factor_reconstruction_error": 2.4424906541753444e-15,
+      "first_bad_sample": null
+    }
+  },
+  "K33": {
+    "base_step": 0.5,
+    "regular_refined_step": 0.25,
+    "initial_layer_step": 0.025,
+    "window": [
+      0,
+      3000
+    ],
+    "sample_count": 12451,
+    "original_overlap_count": 6001,
+    "max_overlap_C_difference": 3.7470027081099033e-14,
+    "max_overlap_scaled_difference": 6.158850810762436e-13,
+    "homogeneous_block_diagnostics": {
+      "(0, 1)": {
+        "B22_factor_reconstruction": 5.575286215961734e-19,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 72,
+            "eigenvector_condition": 27.477187036460023,
+            "eigen_residual": 3.653826917228639e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 1.8901957764688833e-14
+          },
+          {
+            "dimension": 12,
+            "eigenvector_condition": 25.085925671871966,
+            "eigen_residual": 1.5012160332527254e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 3.3310489747207296e-15
+          }
+        ],
+        "max_pair_top_row_change": 2.1647236072850484e-15
+      }
+    },
+    "events": [
+      {
+        "kind": "Y_min",
+        "t": 160.2512200875894,
+        "signed_C": 0.0010122659157179145,
+        "C": 0.0010122659157179145,
+        "bracket": [
+          160.0,
+          160.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 160.33664108810922,
+        "signed_C": 0.001012171089753533,
+        "C": 0.001012171089753533,
+        "bracket": [
+          160.0,
+          160.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 307.1399837002477,
+        "signed_C": 0.18430140548410995,
+        "C": 0.18430140548410995,
+        "bracket": [
+          307.0,
+          307.5
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 318.34176390253947,
+        "signed_C": 0.18205206441707203,
+        "C": 0.18205206441707203,
+        "bracket": [
+          318.0,
+          318.5
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 477.7118061770012,
+        "signed_C": 5.721498725718213e-05,
+        "C": 5.721498725718213e-05,
+        "bracket": [
+          477.5,
+          478.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 477.7195095510705,
+        "signed_C": 5.721450499687056e-05,
+        "C": 5.721450499687056e-05,
+        "bracket": [
+          477.5,
+          478.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 625.5320992968572,
+        "signed_C": 0.09177890731144503,
+        "C": 0.09177890731144503,
+        "bracket": [
+          625.25,
+          625.75
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 636.7276837271285,
+        "signed_C": 0.09065938026956515,
+        "C": 0.09065938026956515,
+        "bracket": [
+          636.5,
+          637.0
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 795.3903905724956,
+        "signed_C": -1.1631456431696052e-17,
+        "C": 0.0,
+        "bracket": [
+          795.25,
+          795.5
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 795.9999795718255,
+        "signed_C": -5.848856458271354e-06,
+        "C": 0.0,
+        "bracket": [
+          795.5,
+          796.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 795.902548165937,
+        "signed_C": -6.178471321320928e-06,
+        "C": 0.0,
+        "bracket": [
+          795.75,
+          796.25
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 796.4174667152416,
+        "signed_C": -1.1255373803115143e-17,
+        "C": 0.0,
+        "bracket": [
+          796.25,
+          796.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 943.9048980982501,
+        "signed_C": 0.045727047564626006,
+        "C": 0.045727047564626006,
+        "bracket": [
+          943.75,
+          944.25
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 955.0994875091948,
+        "signed_C": 0.04516931363805521,
+        "C": 0.04516931363805521,
+        "bracket": [
+          954.75,
+          955.25
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 1114.2786823838749,
+        "signed_C": 1.0240575025452467e-05,
+        "C": 1.0240575025452467e-05,
+        "bracket": [
+          1114.0,
+          1114.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1114.2816689050885,
+        "signed_C": 1.0240541626126802e-05,
+        "C": 1.0240541626126802e-05,
+        "bracket": [
+          1114.0,
+          1114.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1262.2749725619044,
+        "signed_C": 0.02278427220398123,
+        "C": 0.02278427220398123,
+        "bracket": [
+          1262.0,
+          1262.5
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 1273.4693788044945,
+        "signed_C": 0.0225063762521743,
+        "C": 0.0225063762521743,
+        "bracket": [
+          1273.25,
+          1273.75
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 1432.6529699044684,
+        "signed_C": 6.339057588913274e-06,
+        "C": 6.339057588913274e-06,
+        "bracket": [
+          1432.5,
+          1433.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1432.6573093886805,
+        "signed_C": 6.339027520676263e-06,
+        "C": 6.339027520676263e-06,
+        "bracket": [
+          1432.5,
+          1433.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1580.6445753512141,
+        "signed_C": 0.011352790276894807,
+        "C": 0.011352790276894807,
+        "bracket": [
+          1580.5,
+          1581.0
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 1591.8389519601863,
+        "signed_C": 0.01121432259818995,
+        "C": 0.01121432259818995,
+        "bracket": [
+          1591.5,
+          1592.0
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 1751.0234842315626,
+        "signed_C": 3.2733534718503522e-06,
+        "C": 3.2733534718503522e-06,
+        "bracket": [
+          1750.75,
+          1751.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1751.0281126284694,
+        "signed_C": 3.2733369357657024e-06,
+        "C": 3.2733369357657024e-06,
+        "bracket": [
+          1750.75,
+          1751.25
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1899.014101535654,
+        "signed_C": 0.005656802949357597,
+        "C": 0.005656802949357597,
+        "bracket": [
+          1898.75,
+          1899.25
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 1910.208468793813,
+        "signed_C": 0.005587808109126673,
+        "C": 0.005587808109126673,
+        "bracket": [
+          1910.0,
+          1910.5
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 2069.393179568908,
+        "signed_C": 1.6416806942340688e-06,
+        "C": 1.6416806942340688e-06,
+        "bracket": [
+          2069.25,
+          2069.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 2069.397851515765,
+        "signed_C": 1.6416723013043308e-06,
+        "C": 1.6416723013043308e-06,
+        "bracket": [
+          2069.25,
+          2069.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 2217.3836044974732,
+        "signed_C": 0.002818640357325982,
+        "C": 0.002818640357325982,
+        "bracket": [
+          2217.25,
+          2217.75
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 2228.577975377959,
+        "signed_C": 0.002784261995017342,
+        "C": 0.002784261995017342,
+        "bracket": [
+          2228.25,
+          2228.75
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 2387.7627198597356,
+        "signed_C": 8.189963411204128e-07,
+        "C": 8.189963411204128e-07,
+        "bracket": [
+          2387.5,
+          2388.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 2387.767410607181,
+        "signed_C": 8.189921453322902e-07,
+        "C": 8.189921453322902e-07,
+        "bracket": [
+          2387.5,
+          2388.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 2535.753113352758,
+        "signed_C": 0.0014044565706030398,
+        "C": 0.0014044565706030398,
+        "bracket": [
+          2535.5,
+          2536.0
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 2546.94748010001,
+        "signed_C": 0.0013873267101342755,
+        "C": 0.0013873267101342755,
+        "bracket": [
+          2546.75,
+          2547.25
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 2706.132230765637,
+        "signed_C": 4.081767596895469e-07,
+        "C": 4.081767596895469e-07,
+        "bracket": [
+          2706.0,
+          2706.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 2706.13691004081,
+        "signed_C": 4.08174667669541e-07,
+        "C": 4.08174667669541e-07,
+        "bracket": [
+          2706.0,
+          2706.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 2854.1226128590856,
+        "signed_C": 0.0006998048834189829,
+        "C": 0.0006998048834189829,
+        "bracket": [
+          2853.75,
+          2854.25
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 2865.3169844490767,
+        "signed_C": 0.0006912695109543287,
+        "C": 0.0006912695109543287,
+        "bracket": [
+          2865.0,
+          2865.5
+        ]
+      }
+    ],
+    "computed_zero_count_full_propagation": 34,
+    "computed_zero_count_in_display_window": 34,
+    "strict_positive_min": 1.8127354950219984e-12,
+    "state_diagnostics": {
+      "min_pair_eigenvalue": -2.222742699241083e-16,
+      "max_trace_error": 7.578382366091319e-13,
+      "max_hermiticity_error": 4.85722573273506e-16
+    },
+    "factor_diagnostics": {
+      "min_correlation_eigenvalue": -1.6812182513496977e-15,
+      "max_factor_reconstruction_error": 2.55351295663786e-15,
+      "first_bad_sample": null
+    }
+  },
+  "prism": {
+    "base_step": 0.5,
+    "regular_refined_step": 0.25,
+    "initial_layer_step": 0.025,
+    "window": [
+      0,
+      3000
+    ],
+    "sample_count": 12398,
+    "original_overlap_count": 6001,
+    "max_overlap_C_difference": 1.5362711103250604e-14,
+    "max_overlap_scaled_difference": 1.6428682664036035e-13,
+    "homogeneous_block_diagnostics": {
+      "(0, 1)": {
+        "B22_factor_reconstruction": 5.575286215961734e-19,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 72,
+            "eigenvector_condition": 5.297582189634965,
+            "eigen_residual": 3.90332414525514e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 4.630525159941578e-15
+          },
+          {
+            "dimension": 12,
+            "eigenvector_condition": 3.0430052354553343,
+            "eigen_residual": 1.381731573082363e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 1.831026719408895e-15
+          }
+        ],
+        "max_pair_top_row_change": 2.044084422988175e-15
+      }
+    },
+    "events": [
+      {
+        "kind": "Y_min",
+        "t": 136.13886808707852,
+        "signed_C": 0.006201135914373001,
+        "C": 0.006201135914373001,
+        "bracket": [
+          136.0,
+          136.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 136.5298835388199,
+        "signed_C": 0.0061984825301941195,
+        "C": 0.0061984825301941195,
+        "bracket": [
+          136.25,
+          136.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 265.2844436752618,
+        "signed_C": 0.08965773852707197,
+        "C": 0.08965773852707197,
+        "bracket": [
+          265.0,
+          265.5
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 272.04148678084186,
+        "signed_C": 0.08899691242016902,
+        "C": 0.08899691242016902,
+        "bracket": [
+          271.75,
+          272.25
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 381.6262294582255,
+        "signed_C": 0.015467338165311767,
+        "C": 0.015467338165311767,
+        "bracket": [
+          381.5,
+          382.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 383.1969623106038,
+        "signed_C": 0.01544092626872411,
+        "C": 0.01544092626872411,
+        "bracket": [
+          383.0,
+          383.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 498.6904590347696,
+        "signed_C": 0.045737946490008154,
+        "C": 0.045737946490008154,
+        "bracket": [
+          498.5,
+          499.0
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 510.51851009885985,
+        "signed_C": 0.04514728391076896,
+        "C": 0.04514728391076896,
+        "bracket": [
+          510.25,
+          510.75
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 642.7027326987721,
+        "signed_C": 0.012964214232978676,
+        "C": 0.012964214232978676,
+        "bracket": [
+          642.5,
+          643.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 647.5189111520053,
+        "signed_C": 0.012896291954615446,
+        "C": 0.012896291954615446,
+        "bracket": [
+          647.25,
+          647.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 756.1604530176455,
+        "signed_C": 0.023901800022062374,
+        "C": 0.023901800022062374,
+        "bracket": [
+          756.0,
+          756.5
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 769.6086284222065,
+        "signed_C": 0.02355078601034067,
+        "C": 0.02355078601034067,
+        "bracket": [
+          769.25,
+          769.75
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 898.308570739247,
+        "signed_C": 0.00916614847647858,
+        "C": 0.00916614847647858,
+        "bracket": [
+          898.0,
+          898.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 907.1824023952478,
+        "signed_C": 0.009078701573731487,
+        "C": 0.009078701573731487,
+        "bracket": [
+          907.0,
+          907.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1008.9402803924613,
+        "signed_C": 0.012605020783870624,
+        "C": 0.012605020783870624,
+        "bracket": [
+          1008.75,
+          1009.25
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 1026.7971260180097,
+        "signed_C": 0.012360785698609279,
+        "C": 0.012360785698609279,
+        "bracket": [
+          1026.5,
+          1027.0
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 1155.0695222960185,
+        "signed_C": 0.005873150874552273,
+        "C": 0.005873150874552273,
+        "bracket": [
+          1154.75,
+          1155.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1169.3331227760516,
+        "signed_C": 0.005784440808570206,
+        "C": 0.005784440808570206,
+        "bracket": [
+          1169.0,
+          1169.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1259.7957587471356,
+        "signed_C": 0.006826596405914285,
+        "C": 0.006826596405914285,
+        "bracket": [
+          1259.5,
+          1260.0
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 1283.7041619577335,
+        "signed_C": 0.006651301347400687,
+        "C": 0.006651301347400687,
+        "bracket": [
+          1283.5,
+          1284.0
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 1412.2759783953586,
+        "signed_C": 0.0036035137651154008,
+        "C": 0.0036035137651154008,
+        "bracket": [
+          1412.0,
+          1412.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1434.8766192464782,
+        "signed_C": 0.003519867924957418,
+        "C": 0.003519867924957418,
+        "bracket": [
+          1434.75,
+          1435.25
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1507.9008891843994,
+        "signed_C": 0.0037531311803301786,
+        "C": 0.0037531311803301786,
+        "bracket": [
+          1507.75,
+          1508.25
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 1540.9521516946227,
+        "signed_C": 0.003622905788745561,
+        "C": 0.003622905788745561,
+        "bracket": [
+          1540.75,
+          1541.25
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 1669.5803951473258,
+        "signed_C": 0.00215896134926328,
+        "C": 0.00215896134926328,
+        "bracket": [
+          1669.25,
+          1669.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1708.1346817165709,
+        "signed_C": 0.002080885576359868,
+        "C": 0.002080885576359868,
+        "bracket": [
+          1708.0,
+          1708.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1748.28670286711,
+        "signed_C": 0.0020975488343173794,
+        "C": 0.0020975488343173794,
+        "bracket": [
+          1748.0,
+          1748.5
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 1798.179298343429,
+        "signed_C": 0.0019955187980166497,
+        "C": 0.0019955187980166497,
+        "bracket": [
+          1798.0,
+          1798.5
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 1926.7753077420728,
+        "signed_C": 0.0012731333554421521,
+        "C": 0.0012731333554421521,
+        "bracket": [
+          1926.5,
+          1927.0
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 2055.3542848198417,
+        "signed_C": 0.0011092305234449457,
+        "C": 0.0011092305234449457,
+        "bracket": [
+          2055.0,
+          2055.5
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 2183.94265866619,
+        "signed_C": 0.000742758115934995,
+        "C": 0.000742758115934995,
+        "bracket": [
+          2183.75,
+          2184.25
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 2312.5273669926514,
+        "signed_C": 0.000620748190663811,
+        "C": 0.000620748190663811,
+        "bracket": [
+          2312.25,
+          2312.75
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 2441.1205041120907,
+        "signed_C": 0.0004302053563175975,
+        "C": 0.0004302053563175975,
+        "bracket": [
+          2440.75,
+          2441.25
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 2569.710147367266,
+        "signed_C": 0.00034909299860049056,
+        "C": 0.00034909299860049056,
+        "bracket": [
+          2569.5,
+          2570.0
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 2698.304866796088,
+        "signed_C": 0.00024794254370977465,
+        "C": 0.00024794254370977465,
+        "bracket": [
+          2698.0,
+          2698.5
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 2826.895038480013,
+        "signed_C": 0.00019702832571284496,
+        "C": 0.00019702832571284496,
+        "bracket": [
+          2826.75,
+          2827.25
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 2955.4886505881345,
+        "signed_C": 0.00014240758953019557,
+        "C": 0.00014240758953019557,
+        "bracket": [
+          2955.25,
+          2955.75
+        ]
+      }
+    ],
+    "computed_zero_count_full_propagation": 0,
+    "computed_zero_count_in_display_window": 0,
+    "strict_positive_min": 0.00013054328337097886,
+    "state_diagnostics": {
+      "min_pair_eigenvalue": -4.7880548353922216e-17,
+      "max_trace_error": 8.530953721219703e-13,
+      "max_hermiticity_error": 2.79371278044635e-16
+    },
+    "factor_diagnostics": {
+      "min_correlation_eigenvalue": -4.671958175288389e-16,
+      "max_factor_reconstruction_error": 2.886579864025407e-15,
+      "first_bad_sample": null
+    }
+  },
+  "feed_0.1": {
+    "base_step": 0.5,
+    "regular_refined_step": 0.25,
+    "initial_layer_step": 0.025,
+    "window": [
+      0,
+      1050
+    ],
+    "sample_count": 4646,
+    "original_overlap_count": 2101,
+    "max_overlap_C_difference": 2.050443148604586e-14,
+    "max_overlap_scaled_difference": null,
+    "homogeneous_block_diagnostics": {
+      "(0, 2)": {
+        "B22_factor_reconstruction": 0.0,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 1.6763564749857407,
+            "eigen_residual": 2.8332630362635194e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 5.00678547181567e-15
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 1.1362921840804052,
+            "eigen_residual": 1.094979087661346e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 9.99366726830506e-16
+          }
+        ],
+        "max_pair_top_row_change": 2.220446049250313e-16
+      }
+    },
+    "events": [
+      {
+        "kind": "signed_min",
+        "t": 15.813610578605443,
+        "signed_C": -0.10313301658584104,
+        "C": 0.0,
+        "bracket": [
+          15.5,
+          16.0
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 35.92625193361396,
+        "signed_C": 5.551115123125783e-16,
+        "C": 5.551115123125783e-16,
+        "bracket": [
+          35.75,
+          36.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 43.17313056555439,
+        "signed_C": 0.059810593471744736,
+        "C": 0.059810593471744736,
+        "bracket": [
+          43.0,
+          43.5
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 58.18242789442844,
+        "signed_C": -4.0245584642661925e-15,
+        "C": 0.0,
+        "bracket": [
+          58.0,
+          58.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 69.31938242936617,
+        "signed_C": -0.010021983298708771,
+        "C": 0.0,
+        "bracket": [
+          69.0,
+          69.5
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 84.6066890967356,
+        "signed_C": 2.0816681711721685e-17,
+        "C": 2.0816681711721685e-17,
+        "bracket": [
+          84.5,
+          84.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 126.23247253506317,
+        "signed_C": 0.023260788230608814,
+        "C": 0.023260788230608814,
+        "bracket": [
+          126.0,
+          126.5
+        ]
+      }
+    ],
+    "computed_zero_count_full_propagation": 652,
+    "computed_zero_count_in_display_window": 652,
+    "strict_positive_min": 2.0816681711721685e-17,
+    "state_diagnostics": {
+      "min_pair_eigenvalue": -2.2267062215185548e-18,
+      "max_trace_error": 3.906874823655926e-13,
+      "max_hermiticity_error": 6.816000873589027e-17
+    },
+    "factor_diagnostics": {
+      "min_correlation_eigenvalue": -1.1102230246251565e-16,
+      "max_factor_reconstruction_error": 2.220446049250313e-16,
+      "first_bad_sample": null
+    }
+  },
+  "feed_0.1_23": {
+    "base_step": 0.5,
+    "regular_refined_step": 0.25,
+    "initial_layer_step": 0.025,
+    "window": [
+      0,
+      1050
+    ],
+    "sample_count": 4619,
+    "original_overlap_count": 2101,
+    "max_overlap_C_difference": 1.5559289967548295e-12,
+    "max_overlap_scaled_difference": null,
+    "homogeneous_block_diagnostics": {
+      "(2, 3)": {
+        "B22_factor_reconstruction": 0.0,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 1.6763564749857407,
+            "eigen_residual": 2.8332630362635194e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 2.7159713548884894e-15
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 1.1362921840804052,
+            "eigen_residual": 1.094979087661346e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 9.99366726830506e-16
+          }
+        ],
+        "max_pair_top_row_change": 6.787105599759258e-17
+      }
+    },
+    "events": [
+      {
+        "kind": "root",
+        "t": 7.732960841429568,
+        "signed_C": 2.7755575615628914e-17,
+        "C": 2.7755575615628914e-17,
+        "bracket": [
+          7.7250000000000005,
+          7.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 26.146909674631104,
+        "signed_C": -0.0426287202827305,
+        "C": 0.0,
+        "bracket": [
+          26.0,
+          26.5
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 56.95477930481477,
+        "signed_C": 2.0816681711721685e-17,
+        "C": 2.0816681711721685e-17,
+        "bracket": [
+          56.75,
+          57.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 90.00721470093575,
+        "signed_C": 0.03469032700346156,
+        "C": 0.03469032700346156,
+        "bracket": [
+          89.75,
+          90.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 184.9732479213761,
+        "signed_C": 0.0072887581468360114,
+        "C": 0.0072887581468360114,
+        "bracket": [
+          184.75,
+          185.25
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 234.69154851628986,
+        "signed_C": 0.008409483663837796,
+        "C": 0.008409483663837796,
+        "bracket": [
+          234.5,
+          235.0
+        ]
+      }
+    ],
+    "computed_zero_count_full_propagation": 305,
+    "computed_zero_count_in_display_window": 305,
+    "strict_positive_min": 2.0816681711721685e-17,
+    "state_diagnostics": {
+      "min_pair_eigenvalue": 3.040895434726657e-34,
+      "max_trace_error": 3.906874823655926e-13,
+      "max_hermiticity_error": 3.124990600985867e-17
+    },
+    "factor_diagnostics": {
+      "min_correlation_eigenvalue": 0.1648411243055749,
+      "max_factor_reconstruction_error": 2.220446049250313e-16,
+      "first_bad_sample": null
+    }
+  },
+  "feed_0.8": {
+    "base_step": 0.5,
+    "regular_refined_step": 0.25,
+    "initial_layer_step": 0.025,
+    "window": [
+      0,
+      1050
+    ],
+    "sample_count": 4656,
+    "original_overlap_count": 2101,
+    "max_overlap_C_difference": 3.7470027081099033e-14,
+    "max_overlap_scaled_difference": null,
+    "homogeneous_block_diagnostics": {
+      "(0, 2)": {
+        "B22_factor_reconstruction": 1.1102230246251565e-16,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 1.6763564749857407,
+            "eigen_residual": 2.8332630362635194e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 5.00678547181567e-15
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 1.1362921840804052,
+            "eigen_residual": 1.094979087661346e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 9.99366726830506e-16
+          }
+        ],
+        "max_pair_top_row_change": 1.7763568394002505e-15
+      }
+    },
+    "events": [
+      {
+        "kind": "signed_min",
+        "t": 17.37380125694619,
+        "signed_C": -0.4113442384839718,
+        "C": 0.0,
+        "bracket": [
+          17.0,
+          17.5
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 37.423514449877075,
+        "signed_C": 1.942890293094024e-15,
+        "C": 1.942890293094024e-15,
+        "bracket": [
+          37.25,
+          37.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 43.173130396523746,
+        "signed_C": 0.13744169765663675,
+        "C": 0.13744169765663675,
+        "bracket": [
+          43.0,
+          43.5
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 55.68290899601183,
+        "signed_C": -1.0269562977782698e-15,
+        "C": 0.0,
+        "bracket": [
+          55.5,
+          55.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 72.930647427601,
+        "signed_C": -0.06690889285844252,
+        "C": 0.0,
+        "bracket": [
+          72.75,
+          73.25
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 98.77721081818335,
+        "signed_C": 4.163336342344337e-17,
+        "C": 4.163336342344337e-17,
+        "bracket": [
+          98.75,
+          99.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 170.4925861589165,
+        "signed_C": 0.06560153519405668,
+        "C": 0.06560153519405668,
+        "bracket": [
+          170.25,
+          170.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 283.51909448470735,
+        "signed_C": 0.019657899573250825,
+        "C": 0.019657899573250825,
+        "bracket": [
+          283.25,
+          283.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 329.8807085014393,
+        "signed_C": 0.02217369140481091,
+        "C": 0.02217369140481091,
+        "bracket": [
+          329.75,
+          330.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 456.3408605266414,
+        "signed_C": 0.005453600637410108,
+        "C": 0.005453600637410108,
+        "bracket": [
+          456.0,
+          456.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 506.3393665861003,
+        "signed_C": 0.006320429719271616,
+        "C": 0.006320429719271616,
+        "bracket": [
+          506.0,
+          506.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 634.0897278870121,
+        "signed_C": 0.001529402189553272,
+        "C": 0.001529402189553272,
+        "bracket": [
+          633.75,
+          634.25
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 683.2866181117155,
+        "signed_C": 0.0017585676890531953,
+        "C": 0.0017585676890531953,
+        "bracket": [
+          683.0,
+          683.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 811.4493571715823,
+        "signed_C": 0.00042566023634547863,
+        "C": 0.00042566023634547863,
+        "bracket": [
+          811.25,
+          811.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 860.3153348743467,
+        "signed_C": 0.0004878474406593728,
+        "C": 0.0004878474406593728,
+        "bracket": [
+          860.0,
+          860.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 988.6891905698717,
+        "signed_C": 0.00011802195483070026,
+        "C": 0.00011802195483070026,
+        "bracket": [
+          988.5,
+          989.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1037.4348021539274,
+        "signed_C": 0.00013510468139902654,
+        "C": 0.00013510468139902654,
+        "bracket": [
+          1037.25,
+          1037.75
+        ]
+      }
+    ],
+    "computed_zero_count_full_propagation": 725,
+    "computed_zero_count_in_display_window": 725,
+    "strict_positive_min": 4.163336342344337e-17,
+    "state_diagnostics": {
+      "min_pair_eigenvalue": -2.2267062215185548e-18,
+      "max_trace_error": 3.7281289166912757e-13,
+      "max_hermiticity_error": 1.0412249158117741e-16
+    },
+    "factor_diagnostics": {
+      "min_correlation_eigenvalue": -1.1102230246251565e-16,
+      "max_factor_reconstruction_error": 2.220446049250313e-16,
+      "first_bad_sample": null
+    }
+  },
+  "feed_0.8_23": {
+    "base_step": 0.5,
+    "regular_refined_step": 0.25,
+    "initial_layer_step": 0.025,
+    "window": [
+      0,
+      1050
+    ],
+    "sample_count": 4695,
+    "original_overlap_count": 2101,
+    "max_overlap_C_difference": 4.92361013071374e-12,
+    "max_overlap_scaled_difference": null,
+    "homogeneous_block_diagnostics": {
+      "(2, 3)": {
+        "B22_factor_reconstruction": 1.1102230246251565e-16,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 1.6763564749857407,
+            "eigen_residual": 2.8332630362635194e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 2.7159713548884894e-15
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 1.1362921840804052,
+            "eigen_residual": 1.094979087661346e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 9.99366726830506e-16
+          }
+        ],
+        "max_pair_top_row_change": 5.464378949326942e-16
+      }
+    },
+    "events": [
+      {
+        "kind": "signed_min",
+        "t": 0.7429318382953329,
+        "signed_C": 0.06609288374826908,
+        "C": 0.06609288374826908,
+        "bracket": [
+          0.7250000000000001,
+          0.775
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 0.8530264665830494,
+        "signed_C": 0.06609799784947759,
+        "C": 0.06609799784947759,
+        "bracket": [
+          0.8250000000000001,
+          0.875
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1.3763771475413598,
+        "signed_C": 0.06568627806402899,
+        "C": 0.06568627806402899,
+        "bracket": [
+          1.35,
+          1.4000000000000001
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 18.362966055356168,
+        "signed_C": 0.22741803192168053,
+        "C": 0.22741803192168053,
+        "bracket": [
+          18.0,
+          18.5
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 53.033371490364225,
+        "signed_C": 6.938893903907228e-16,
+        "C": 6.938893903907228e-16,
+        "bracket": [
+          53.0,
+          53.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 61.22296312606872,
+        "signed_C": -0.01209501171488675,
+        "C": 0.0,
+        "bracket": [
+          61.0,
+          61.5
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 71.34282904684015,
+        "signed_C": -1.3877787807814457e-16,
+        "C": 0.0,
+        "bracket": [
+          71.25,
+          71.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 90.00721602105664,
+        "signed_C": 0.03479309874472668,
+        "C": 0.03479309874472668,
+        "bracket": [
+          89.75,
+          90.25
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 137.19319387669134,
+        "signed_C": -8.298917109073045e-15,
+        "C": 0.0,
+        "bracket": [
+          137.0,
+          137.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 171.88969019366618,
+        "signed_C": -0.01231368638608342,
+        "C": 0.0,
+        "bracket": [
+          171.75,
+          172.25
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 212.86624385351564,
+        "signed_C": -6.938893903907228e-18,
+        "C": 0.0,
+        "bracket": [
+          212.75,
+          213.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 241.0908937104004,
+        "signed_C": 0.005057090127196146,
+        "C": 0.005057090127196146,
+        "bracket": [
+          240.75,
+          241.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 263.49419082493563,
+        "signed_C": 0.0042672995576068865,
+        "C": 0.0042672995576068865,
+        "bracket": [
+          263.25,
+          263.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 304.3298735920454,
+        "signed_C": 0.007078169826572977,
+        "C": 0.007078169826572977,
+        "bracket": [
+          304.0,
+          304.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 356.97155919024357,
+        "signed_C": 0.003201728795006297,
+        "C": 0.003201728795006297,
+        "bracket": [
+          356.75,
+          357.25
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 390.5463262392564,
+        "signed_C": 0.004108963786462572,
+        "C": 0.004108963786462572,
+        "bracket": [
+          390.25,
+          390.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 446.32954475870486,
+        "signed_C": 0.0019746461281111194,
+        "C": 0.0019746461281111194,
+        "bracket": [
+          446.0,
+          446.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 478.52364127320516,
+        "signed_C": 0.0023933375368230514,
+        "C": 0.0023933375368230514,
+        "bracket": [
+          478.25,
+          478.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 536.2857535506596,
+        "signed_C": 0.0011772500952976156,
+        "C": 0.0011772500952976156,
+        "bracket": [
+          536.0,
+          536.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 565.6718481999627,
+        "signed_C": 0.0013490210946540833,
+        "C": 0.0013490210946540833,
+        "bracket": [
+          565.5,
+          566.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 625.552641385264,
+        "signed_C": 0.00065876036324515,
+        "C": 0.00065876036324515,
+        "bracket": [
+          625.25,
+          625.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 653.4672387549704,
+        "signed_C": 0.0007371461450675395,
+        "C": 0.0007371461450675395,
+        "bracket": [
+          653.25,
+          653.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 714.5640484544621,
+        "signed_C": 0.00035959980952684996,
+        "C": 0.00035959980952684996,
+        "bracket": [
+          714.25,
+          714.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 741.5492537345261,
+        "signed_C": 0.0003970819445415414,
+        "C": 0.0003970819445415414,
+        "bracket": [
+          741.25,
+          741.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 803.4417232146086,
+        "signed_C": 0.00019347342149904898,
+        "C": 0.00019347342149904898,
+        "bracket": [
+          803.25,
+          803.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 829.8090767732866,
+        "signed_C": 0.00021194308972296604,
+        "C": 0.00021194308972296604,
+        "bracket": [
+          829.5,
+          830.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 892.2086691654157,
+        "signed_C": 0.00010317090101223576,
+        "C": 0.00010317090101223576,
+        "bracket": [
+          892.0,
+          892.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 918.1904945097897,
+        "signed_C": 0.00011249025902128295,
+        "C": 0.00011249025902128295,
+        "bracket": [
+          918.0,
+          918.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 980.9081155718271,
+        "signed_C": 5.472753460849166e-05,
+        "C": 5.472753460849166e-05,
+        "bracket": [
+          980.75,
+          981.25
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1006.647317663183,
+        "signed_C": 5.950096597129886e-05,
+        "C": 5.950096597129886e-05,
+        "bracket": [
+          1006.5,
+          1007.0
+        ]
+      }
+    ],
+    "computed_zero_count_full_propagation": 433,
+    "computed_zero_count_in_display_window": 433,
+    "strict_positive_min": 6.938893903907228e-16,
+    "state_diagnostics": {
+      "min_pair_eigenvalue": 2.4327163477813255e-33,
+      "max_trace_error": 3.7270186936666505e-13,
+      "max_hermiticity_error": 2.220446049250313e-16
+    },
+    "factor_diagnostics": {
+      "min_correlation_eigenvalue": 0.1627735833021004,
+      "max_factor_reconstruction_error": 4.440892098500626e-16,
+      "first_bad_sample": null
+    }
+  },
+  "detuning_0": {
+    "base_step": 0.5,
+    "regular_refined_step": 0.25,
+    "initial_layer_step": 0.025,
+    "window": [
+      0,
+      1700
+    ],
+    "sample_count": 7180,
+    "original_overlap_count": 3401,
+    "max_overlap_C_difference": 5.917488721252084e-14,
+    "max_overlap_scaled_difference": null,
+    "homogeneous_block_diagnostics": {
+      "(0, 2)": {
+        "B22_factor_reconstruction": 5.575286215961734e-19,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 1.6763564749857407,
+            "eigen_residual": 2.8332630362635194e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 5.00678547181567e-15
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 1.1362921840804052,
+            "eigen_residual": 1.094979087661346e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 9.99366726830506e-16
+          }
+        ],
+        "max_pair_top_row_change": 7.570589003762511e-16
+      }
+    },
+    "events": [
+      {
+        "kind": "signed_min",
+        "t": 90.10670850855062,
+        "signed_C": 0.00017486959595964385,
+        "C": 0.00017486959595964385,
+        "bracket": [
+          89.75,
+          90.25
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 166.08677725020834,
+        "signed_C": 0.1991418973561216,
+        "C": 0.1991418973561216,
+        "bracket": [
+          165.75,
+          166.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 265.7292581352123,
+        "signed_C": 0.0012548994640514959,
+        "C": 0.0012548994640514959,
+        "bracket": [
+          265.5,
+          266.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 342.8427733741308,
+        "signed_C": 0.055849083380804056,
+        "C": 0.055849083380804056,
+        "bracket": [
+          342.5,
+          343.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 443.12539066216317,
+        "signed_C": 0.00033933750405189586,
+        "C": 0.00033933750405189586,
+        "bracket": [
+          443.0,
+          443.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 520.056011426764,
+        "signed_C": 0.015435634376659216,
+        "C": 0.015435634376659216,
+        "bracket": [
+          519.75,
+          520.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 620.332660297765,
+        "signed_C": 0.00010361799260384918,
+        "C": 0.00010361799260384918,
+        "bracket": [
+          620.0,
+          620.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 697.2249145050033,
+        "signed_C": 0.0042702654748673526,
+        "C": 0.0042702654748673526,
+        "bracket": [
+          697.0,
+          697.5
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 797.5134932835191,
+        "signed_C": 2.9744037190941433e-05,
+        "C": 2.9744037190941433e-05,
+        "bracket": [
+          797.25,
+          797.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 874.3973482311696,
+        "signed_C": 0.0011813341988968348,
+        "C": 0.0011813341988968348,
+        "bracket": [
+          874.25,
+          874.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 974.6890117609844,
+        "signed_C": 8.340082823849112e-06,
+        "C": 8.340082823849112e-06,
+        "bracket": [
+          974.5,
+          975.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1051.5695237806087,
+        "signed_C": 0.00032680923301017665,
+        "C": 0.00032680923301017665,
+        "bracket": [
+          1051.25,
+          1051.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1151.862546313158,
+        "signed_C": 2.319299253433032e-06,
+        "C": 2.319299253433032e-06,
+        "bracket": [
+          1151.5,
+          1152.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1228.7417276253468,
+        "signed_C": 9.041009568577938e-05,
+        "C": 9.041009568577938e-05,
+        "bracket": [
+          1228.5,
+          1229.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1329.0352639705752,
+        "signed_C": 6.429224499241617e-07,
+        "C": 6.429224499241617e-07,
+        "bracket": [
+          1328.75,
+          1329.25
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1405.9139142222957,
+        "signed_C": 2.5011512641145335e-05,
+        "C": 2.5011512641145335e-05,
+        "bracket": [
+          1405.75,
+          1406.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1506.2076429481265,
+        "signed_C": 1.780014098801349e-07,
+        "C": 1.780014098801349e-07,
+        "bracket": [
+          1506.0,
+          1506.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1583.0861019852453,
+        "signed_C": 6.9193157500684374e-06,
+        "C": 6.9193157500684374e-06,
+        "bracket": [
+          1582.75,
+          1583.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1683.3799184876805,
+        "signed_C": 4.925832748538828e-08,
+        "C": 4.925832748538828e-08,
+        "bracket": [
+          1683.25,
+          1683.75
+        ]
+      }
+    ],
+    "computed_zero_count_full_propagation": 0,
+    "computed_zero_count_in_display_window": 0,
+    "strict_positive_min": 4.925832748538828e-08,
+    "state_diagnostics": {
+      "min_pair_eigenvalue": -2.9753835813142014e-16,
+      "max_trace_error": 5.930811397547586e-13,
+      "max_hermiticity_error": 3.469446976022088e-16
+    },
+    "factor_diagnostics": {
+      "min_correlation_eigenvalue": -8.99281087784117e-15,
+      "max_factor_reconstruction_error": 2.4424906541753444e-15,
+      "first_bad_sample": null
+    }
+  },
+  "detuning_1": {
+    "base_step": 0.5,
+    "regular_refined_step": 0.25,
+    "initial_layer_step": 0.025,
+    "window": [
+      0,
+      1700
+    ],
+    "sample_count": 7225,
+    "original_overlap_count": 3401,
+    "max_overlap_C_difference": 4.829470157119431e-15,
+    "max_overlap_scaled_difference": null,
+    "homogeneous_block_diagnostics": {
+      "(0, 2)": {
+        "B22_factor_reconstruction": 5.575286215961734e-19,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 2.0383659456563707,
+            "eigen_residual": 3.0070814929790725e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 4.1825028414130975e-15
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 1.3867458028494501,
+            "eigen_residual": 1.2943666497097637e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 1.459280898082671e-15
+          }
+        ],
+        "max_pair_top_row_change": 1.0607319867126324e-15
+      }
+    },
+    "events": [
+      {
+        "kind": "root",
+        "t": 87.90514586979931,
+        "signed_C": 3.8163916471489756e-17,
+        "C": 3.8163916471489756e-17,
+        "bracket": [
+          87.75,
+          88.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 92.75184749772706,
+        "signed_C": -0.0075941261674527145,
+        "C": 0.0,
+        "bracket": [
+          92.5,
+          93.0
+        ]
+      },
+      {
+        "kind": "root",
+        "t": 96.43054266914635,
+        "signed_C": 5.828670879282072e-16,
+        "C": 5.828670879282072e-16,
+        "bracket": [
+          96.25,
+          96.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 159.93449428585927,
+        "signed_C": 0.18995172441037506,
+        "C": 0.18995172441037506,
+        "bracket": [
+          159.75,
+          160.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 257.63461158308144,
+        "signed_C": 0.014151373011003889,
+        "C": 0.014151373011003889,
+        "bracket": [
+          257.5,
+          258.0
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 330.4863989050502,
+        "signed_C": 0.05846582717390442,
+        "C": 0.05846582717390442,
+        "bracket": [
+          330.25,
+          330.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 430.5062990476462,
+        "signed_C": 0.01100843533755354,
+        "C": 0.01100843533755354,
+        "bracket": [
+          430.25,
+          430.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 498.003773684095,
+        "signed_C": 0.019962315913435155,
+        "C": 0.019962315913435155,
+        "bracket": [
+          497.75,
+          498.25
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 606.6141061742687,
+        "signed_C": 0.005937228796540587,
+        "C": 0.005937228796540587,
+        "bracket": [
+          606.25,
+          606.75
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 663.4313387066363,
+        "signed_C": 0.007319914254269962,
+        "C": 0.007319914254269962,
+        "bracket": [
+          663.25,
+          663.75
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 789.14786068486,
+        "signed_C": 0.0028177709068672213,
+        "C": 0.0028177709068672213,
+        "bracket": [
+          789.0,
+          789.5
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 822.1107408306096,
+        "signed_C": 0.0028902697599721334,
+        "C": 0.0028902697599721334,
+        "bracket": [
+          821.75,
+          822.25
+        ]
+      }
+    ],
+    "computed_zero_count_full_propagation": 61,
+    "computed_zero_count_in_display_window": 61,
+    "strict_positive_min": 3.8163916471489756e-17,
+    "state_diagnostics": {
+      "min_pair_eigenvalue": -7.219631164506093e-17,
+      "max_trace_error": 6.171729793891245e-13,
+      "max_hermiticity_error": 2.2247786310271853e-16
+    },
+    "factor_diagnostics": {
+      "min_correlation_eigenvalue": -4.94746966836257e-16,
+      "max_factor_reconstruction_error": 2.3314683517128287e-15,
+      "first_bad_sample": null
+    }
+  },
+  "critical_analytic": {
+    "base_step": 0.25,
+    "regular_refined_step": 0.125,
+    "initial_layer_step": 0.025,
+    "window": [
+      0,
+      60
+    ],
+    "sample_count": 810,
+    "original_overlap_count": 241,
+    "max_overlap_C_difference": 1.5959455978986625e-16,
+    "max_overlap_scaled_difference": 5.527492829174429e-15,
+    "homogeneous_block_diagnostics": {
+      "(0, 1)": {
+        "B22_factor_reconstruction": 1.734723475976807e-18,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 2.608301446157642,
+            "eigen_residual": 2.150513801250264e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 1.6262049547602306e-15
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 2.8658588727778844,
+            "eigen_residual": 6.295160508335523e-16,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 1.1389935954777104e-15
+          }
+        ],
+        "max_pair_top_row_change": 2.1684043449710089e-16
+      }
+    },
+    "events": [
+      {
+        "kind": "Y_max",
+        "t": 0.07883783944023262,
+        "signed_C": 0.09390039793681107,
+        "C": 0.09390039793681107,
+        "bracket": [
+          0.05,
+          0.1
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 0.9774236729464749,
+        "signed_C": 0.06395232751175856,
+        "C": 0.06395232751175856,
+        "bracket": [
+          0.9500000000000001,
+          1.0
+        ]
+      },
+      {
+        "kind": "signed_min",
+        "t": 1.1641066160066638,
+        "signed_C": 0.06311582455786466,
+        "C": 0.06311582455786466,
+        "bracket": [
+          1.1500000000000001,
+          1.2000000000000002
+        ]
+      },
+      {
+        "kind": "C_max",
+        "t": 1.5236126829330983,
+        "signed_C": 0.06378890662494181,
+        "C": 0.06378890662494181,
+        "bracket": [
+          1.5,
+          1.55
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 1.837806150236886,
+        "signed_C": 0.06225140273471626,
+        "C": 0.06225140273471626,
+        "bracket": [
+          1.8250000000000002,
+          1.875
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 2.753159119194599,
+        "signed_C": 0.05079990367088662,
+        "C": 0.05079990367088662,
+        "bracket": [
+          2.725,
+          2.7750000000000004
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 3.575306219322469,
+        "signed_C": 0.045575245483252085,
+        "C": 0.045575245483252085,
+        "bracket": [
+          3.5500000000000003,
+          3.6
+        ]
+      },
+      {
+        "kind": "Y_min",
+        "t": 4.569104309396864,
+        "signed_C": 0.038325103956528904,
+        "C": 0.038325103956528904,
+        "bracket": [
+          4.55,
+          4.6000000000000005
+        ]
+      },
+      {
+        "kind": "Y_max",
+        "t": 5.25320552546209,
+        "signed_C": 0.034493520301490437,
+        "C": 0.034493520301490437,
+        "bracket": [
+          5.2250000000000005,
+          5.275
+        ]
+      }
+    ],
+    "computed_zero_count_full_propagation": 0,
+    "computed_zero_count_in_display_window": 0,
+    "strict_positive_min": 5.762265592766638e-06,
+    "state_diagnostics": {
+      "min_pair_eigenvalue": 1.0362436145540667e-13,
+      "max_trace_error": 1.709743457922741e-14,
+      "max_hermiticity_error": 4.61742627432838e-19
+    },
+    "factor_diagnostics": {
+      "min_correlation_eigenvalue": 0.0012602399461897338,
+      "max_factor_reconstruction_error": 1.6653345369377348e-15,
+      "first_bad_sample": null
+    }
+  }
+}

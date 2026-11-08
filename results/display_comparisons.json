@@ -1,0 +1,298 @@
+[
+  {
+    "key": "G0",
+    "window": [
+      0,
+      2000
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 16325,
+    "log_unresolved_boundary_count": 0,
+    "log_computed_zero_count": 0,
+    "minimum_positive_C_in_window": 8.92547244221687e-05,
+    "max_exact_asymptotic_difference_plotted_units": 0.3894064281112389,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "G0_ratio",
+    "window": [
+      500,
+      2000
+    ],
+    "raw_height_cutoff": null,
+    "minimum_denominator": 4.160942122288923e-05,
+    "sample_count": 12001
+  },
+  {
+    "key": "G0+24",
+    "window": [
+      0,
+      2000
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 16325,
+    "log_unresolved_boundary_count": 0,
+    "log_computed_zero_count": 0,
+    "minimum_positive_C_in_window": 0.0005250527112602261,
+    "max_exact_asymptotic_difference_plotted_units": 0.5260196893113324,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "G0+24_ratio",
+    "window": [
+      500,
+      2000
+    ],
+    "raw_height_cutoff": null,
+    "minimum_denominator": 0.000409289550484421,
+    "sample_count": 12001
+  },
+  {
+    "key": "K33",
+    "window": [
+      0,
+      3000
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 12952,
+    "log_unresolved_boundary_count": 0,
+    "log_computed_zero_count": 34,
+    "minimum_positive_C_in_window": 1.8127354950219984e-12,
+    "max_exact_asymptotic_difference_plotted_units": 0.366225862893381,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "K33",
+    "window": [
+      500,
+      3000
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 10586,
+    "log_unresolved_boundary_count": 0,
+    "log_computed_zero_count": 0,
+    "minimum_positive_C_in_window": 1.8127354950219984e-12,
+    "max_exact_asymptotic_difference_plotted_units": 0.00016197533322328297,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "prism",
+    "window": [
+      0,
+      3000
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 12398,
+    "log_unresolved_boundary_count": 0,
+    "log_computed_zero_count": 0,
+    "minimum_positive_C_in_window": 0.00013054328337097886,
+    "max_exact_asymptotic_difference_plotted_units": 0.6378590040046609,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "prism",
+    "window": [
+      500,
+      3000
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 10031,
+    "log_unresolved_boundary_count": 0,
+    "log_computed_zero_count": 0,
+    "minimum_positive_C_in_window": 0.00013054328337097886,
+    "max_exact_asymptotic_difference_plotted_units": 0.04448506730370266,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "K33",
+    "view": "Zero interval",
+    "window": [
+      794,
+      798
+    ],
+    "rescaled": true,
+    "unit_power": 4,
+    "zero_baseline": true,
+    "minimum_displayed_Y": 0.0
+  },
+  {
+    "key": "K33",
+    "view": "Late minimum",
+    "window": [
+      2704,
+      2708
+    ],
+    "rescaled": true,
+    "unit_power": 4,
+    "zero_baseline": true,
+    "minimum_displayed_Y": 0.00015217964555683247
+  },
+  {
+    "key": "feed_0.1",
+    "window": [
+      0,
+      1050
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 4646,
+    "log_unresolved_boundary_count": 2,
+    "log_computed_zero_count": 652,
+    "minimum_positive_C_in_window": 2.0816681711721685e-17,
+    "max_exact_asymptotic_difference_plotted_units": NaN,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "feed_0.1_23",
+    "window": [
+      0,
+      1050
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 4619,
+    "log_unresolved_boundary_count": 2,
+    "log_computed_zero_count": 305,
+    "minimum_positive_C_in_window": 2.0816681711721685e-17,
+    "max_exact_asymptotic_difference_plotted_units": NaN,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "feed_0.8",
+    "window": [
+      0,
+      1050
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 4656,
+    "log_unresolved_boundary_count": 2,
+    "log_computed_zero_count": 725,
+    "minimum_positive_C_in_window": 4.163336342344337e-17,
+    "max_exact_asymptotic_difference_plotted_units": NaN,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "feed_0.8_23",
+    "window": [
+      0,
+      1050
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 4695,
+    "log_unresolved_boundary_count": 1,
+    "log_computed_zero_count": 433,
+    "minimum_positive_C_in_window": 6.938893903907228e-16,
+    "max_exact_asymptotic_difference_plotted_units": NaN,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "feed_0.8",
+    "window": [
+      0,
+      1050
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 4656,
+    "log_unresolved_boundary_count": 2,
+    "log_computed_zero_count": 725,
+    "minimum_positive_C_in_window": 4.163336342344337e-17,
+    "max_exact_asymptotic_difference_plotted_units": NaN,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "feed_0.8_23",
+    "window": [
+      0,
+      1050
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 4695,
+    "log_unresolved_boundary_count": 1,
+    "log_computed_zero_count": 433,
+    "minimum_positive_C_in_window": 6.938893903907228e-16,
+    "max_exact_asymptotic_difference_plotted_units": NaN,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "critical_analytic",
+    "window": [
+      0,
+      60
+    ],
+    "raw_height_cutoff": null,
+    "sample_count": 810,
+    "minimum_C": 5.762265592766638e-06,
+    "max_exact_asymptotic_difference_plotted_units": 0.017551147907525343,
+    "difference_meaning": "Asymptotic error, not numerical solver error"
+  },
+  {
+    "key": "detuning_0",
+    "window": [
+      0,
+      1700
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 7661,
+    "log_unresolved_boundary_count": 0,
+    "log_computed_zero_count": 0,
+    "minimum_positive_C_in_window": 4.925832748538828e-08,
+    "max_exact_asymptotic_difference_plotted_units": 0.04302709628137835,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "detuning_0",
+    "window": [
+      0,
+      1700
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 7661,
+    "log_unresolved_boundary_count": 0,
+    "log_computed_zero_count": 0,
+    "minimum_positive_C_in_window": 4.925832748538828e-08,
+    "max_exact_asymptotic_difference_plotted_units": 0.03667763407897412,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "detuning_1",
+    "window": [
+      0,
+      1700
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 7225,
+    "log_unresolved_boundary_count": 0,
+    "log_computed_zero_count": 0,
+    "minimum_positive_C_in_window": 3.8163916471489756e-17,
+    "max_exact_asymptotic_difference_plotted_units": 0.5550740748928384,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  },
+  {
+    "key": "detuning_1",
+    "window": [
+      0,
+      1700
+    ],
+    "raw_height_cutoff": null,
+    "numerical_sample_count_in_window": 7225,
+    "log_unresolved_boundary_count": 2,
+    "log_computed_zero_count": 61,
+    "minimum_positive_C_in_window": 3.8163916471489756e-17,
+    "max_exact_asymptotic_difference_plotted_units": NaN,
+    "difference_meaning": "Asymptotic error, not numerical solver error",
+    "sampling": "Direct propagation with optimized extrema and bracketed zero boundaries"
+  }
+]

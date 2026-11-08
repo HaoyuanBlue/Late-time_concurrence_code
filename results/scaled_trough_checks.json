@@ -1,0 +1,266 @@
+{
+  "cases": {
+    "K33": {
+      "graph": "K33",
+      "pair_one_based": [
+        1,
+        2
+      ],
+      "gamma1": 0.0010940183554620229,
+      "Q": [
+        [
+          {
+            "real": 0.27394515390643254,
+            "imag": 2.2887425804852233e-18
+          },
+          {
+            "real": 0.273716868787641,
+            "imag": 4.620855074129434e-05
+          }
+        ],
+        [
+          {
+            "real": 0.273716868787641,
+            "imag": -4.6208550741294775e-05
+          },
+          {
+            "real": 0.2739451539064328,
+            "imag": -3.818265707544776e-21
+          }
+        ]
+      ],
+      "direct": [
+        [
+          {
+            "real": 0.26609763335235065,
+            "imag": 0.0
+          },
+          {
+            "real": 0.2660976027887653,
+            "imag": -0.0001275374241618949
+          }
+        ],
+        [
+          {
+            "real": 0.2660976027887653,
+            "imag": 0.00012753742416189495
+          },
+          {
+            "real": 0.26609763335235087,
+            "imag": 0.0
+          }
+        ]
+      ],
+      "feeding": [
+        [
+          {
+            "real": 0.007847520554081914,
+            "imag": 2.2887425804852233e-18
+          },
+          {
+            "real": 0.007619265998875688,
+            "imag": 0.00017374597490318923
+          }
+        ],
+        [
+          {
+            "real": 0.007619265998875686,
+            "imag": -0.00017374597490318972
+          },
+          {
+            "real": 0.007847520554081966,
+            "imag": -3.818265707544776e-21
+          }
+        ]
+      ],
+      "trace_Q": 0.5478903078128654,
+      "F": 0.5474337453761536,
+      "nu": 0.999166690065144,
+      "nu_crit": 0.11019283498082075,
+      "direct_nu": 1.0,
+      "pair_factor": 0.33333333333333337,
+      "asymptotic_profile_lower_bound": 0.00015218747890392387,
+      "max_sylvester_residual": 7.895416045824922e-15,
+      "coefficient_min_integral_margin": 0.012744921537291357,
+      "continuous_minimum": {
+        "t": 2706.1322309446423,
+        "C": 4.081767595193224e-07,
+        "Y": 0.00015217964555683274,
+        "leading_Y": 0.0001521874789040828
+      },
+      "bracket": [
+        2703.632230765637,
+        2708.632230765637
+      ],
+      "local_sample_count": 502,
+      "coarse_grid_step": 0.01999999999998181,
+      "fine_grid_step": 0.010000000000218279,
+      "coarse_grid_minimum_Y": 0.00015217964555683247,
+      "fine_grid_minimum_Y": 0.00015217964555683247,
+      "fine_grid_minus_continuous_minimum_Y": -2.710505431213761e-19,
+      "homogeneous_top_row_diagnostics": {
+        "B22_factor_reconstruction": 5.575286215961734e-19,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 72,
+            "eigenvector_condition": 27.477187036460023,
+            "eigen_residual": 3.653826917228639e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 1.8901957764688833e-14
+          },
+          {
+            "dimension": 12,
+            "eigenvector_condition": 25.085925671871966,
+            "eigen_residual": 1.5012160332527254e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 3.3310489747207296e-15
+          }
+        ]
+      },
+      "state_diagnostics": {
+        "min_pair_eigenvalue": -1.7579494962208796e-16,
+        "max_trace_error": 6.268319197033634e-13
+      },
+      "independent_requested_times": [
+        2703.632230765637,
+        2704.882230765637,
+        2706.132230765637,
+        2706.1322309446423,
+        2707.3722307656367,
+        2708.632230765637
+      ]
+    },
+    "detuning_0": {
+      "graph": "P4",
+      "pair_one_based": [
+        1,
+        3
+      ],
+      "gamma1": 0.0036264695935393117,
+      "Q": [
+        [
+          {
+            "real": 0.3964774488720434,
+            "imag": 3.93859732561409e-18
+          },
+          {
+            "real": 0.38542862999286404,
+            "imag": -0.0010769905587203388
+          }
+        ],
+        [
+          {
+            "real": 0.38542862999286404,
+            "imag": 0.001076990558720344
+          },
+          {
+            "real": 0.3964774488720426,
+            "imag": 4.705585659352859e-18
+          }
+        ]
+      ],
+      "direct": [
+        [
+          {
+            "real": 0.37636077875943486,
+            "imag": 1.0842021724855044e-19
+          },
+          {
+            "real": 0.3763592519581994,
+            "imag": -0.001072032589391114
+          }
+        ],
+        [
+          {
+            "real": 0.3763592519581994,
+            "imag": 0.001072032589391114
+          },
+          {
+            "real": 0.37636077875943463,
+            "imag": 0.0
+          }
+        ]
+      ],
+      "feeding": [
+        [
+          {
+            "real": 0.02011667011260856,
+            "imag": 3.830177108365539e-18
+          },
+          {
+            "real": 0.009069378034664616,
+            "imag": -4.957969329224838e-06
+          }
+        ],
+        [
+          {
+            "real": 0.009069378034664611,
+            "imag": 4.957969329230042e-06
+          },
+          {
+            "real": 0.020116670112607978,
+            "imag": 4.705585659352859e-18
+          }
+        ]
+      ],
+      "trace_Q": 0.792954897744086,
+      "F": 0.7708602693791908,
+      "nu": 0.9721363365965036,
+      "nu_crit": 0.2003696115744998,
+      "direct_nu": 0.9999999999999999,
+      "pair_factor": 0.4472135954999579,
+      "asymptotic_profile_lower_bound": 0.009881018192300127,
+      "max_sylvester_residual": 6.696717171882545e-15,
+      "coefficient_min_integral_margin": 0.017900041132929832,
+      "continuous_minimum": {
+        "t": 1683.2145743398314,
+        "C": 4.928786382382725e-08,
+        "Y": 0.00987908868720795,
+        "leading_Y": 0.009881018192300162
+      },
+      "bracket": [
+        1680.75,
+        1685.75
+      ],
+      "local_sample_count": 502,
+      "coarse_grid_step": 0.01999999999998181,
+      "fine_grid_step": 0.009999999999990905,
+      "coarse_grid_minimum_Y": 0.009879093233446462,
+      "fine_grid_minimum_Y": 0.009879093233446462,
+      "fine_grid_minus_continuous_minimum_Y": 4.5462385123845594e-09,
+      "homogeneous_top_row_diagnostics": {
+        "B22_factor_reconstruction": 5.575286215961734e-19,
+        "initial_B22_negative_mass": -0.0,
+        "block_methods": [
+          {
+            "dimension": 32,
+            "eigenvector_condition": 1.6763564749857407,
+            "eigen_residual": 2.8332630362635194e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 5.00678547181567e-15
+          },
+          {
+            "dimension": 8,
+            "eigenvector_condition": 1.1362921840804052,
+            "eigen_residual": 1.094979087661346e-15,
+            "method": "diagonalization with condition and exponential checks",
+            "max_direct_exponential_check": 9.99366726830506e-16
+          }
+        ]
+      },
+      "state_diagnostics": {
+        "min_pair_eigenvalue": -2.2766715668934615e-16,
+        "max_trace_error": 8.393286066166183e-14
+      },
+      "independent_requested_times": [
+        1680.75,
+        1682.0,
+        1683.2145743398314,
+        1683.24,
+        1684.49,
+        1685.75
+      ]
+    }
+  }
+}
