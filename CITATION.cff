@@ -6,12 +6,12 @@ version: 1.0.0
 license: MIT
 abstract: "Jupyter notebook that computes Figs. 1 to 5 and the numerical checks of Appendix E of the article Graph spectra and late-time concurrence in a lossy reservoir network."
 authors:
-  - family-names: Ghoshal
-    given-names: Gourab
-    affiliation: "Department of Physics and Astronomy, University of Rochester"
   - family-names: Tian
     given-names: Haoyuan
     affiliation: "Department of Mathematics, University of Rochester"
+  - family-names: Ghoshal
+    given-names: Gourab
+    affiliation: "Department of Physics and Astronomy, University of Rochester"
 keywords:
   - open quantum systems
   - entanglement dynamics

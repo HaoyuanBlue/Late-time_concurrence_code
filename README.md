@@ -1,6 +1,6 @@
 # Graph spectra and late-time concurrence in a lossy reservoir network: numerical code
 
-This repository contains the code for the article "Graph spectra and late-time concurrence in a lossy reservoir network" by Gourab Ghoshal and Haoyuan Tian. The notebook `graph_concurrence.ipynb` computes Figs. 1 to 5 and the numerical checks described in Appendix E of the article. It reads no precomputed data.
+This repository contains the code for the article "Graph spectra and late-time concurrence in a lossy reservoir network" by Haoyuan Tian and Gourab Ghoshal. The notebook `graph_concurrence.ipynb` computes Figs. 1 to 5 and the numerical checks described in Appendix E of the article. It reads no precomputed data.
 
 ## Requirements
 
