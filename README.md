@@ -4,7 +4,7 @@ This repository contains the code for the article "Graph spectra and late-time c
 
 ## Requirements
 
-Python 3.10 or later, with NumPy, SciPy 1.9 or later, Matplotlib, mpmath, and Jupyter. The packages are listed in `requirements.txt`. The first cell imports mpmath, so every run requires it. It provides the 40-, 60-, and 80-digit arithmetic of the precision checks. The notebook writes the versions it ran with to `results/summary.json` under `environment`.
+Python 3.11 to 3.13, with NumPy, SciPy 1.9 or later, Matplotlib, mpmath, and Jupyter. The packages are listed in `requirements.txt`. The first cell imports mpmath, so every run requires it. It provides the 40-, 60-, and 80-digit arithmetic of the precision checks. The notebook writes the versions it ran with to `results/summary.json` under `environment`.
 
 ## Running
 
