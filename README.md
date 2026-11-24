@@ -14,7 +14,7 @@ Execute all cells in order, for example with
 jupyter nbconvert --to notebook --execute graph_concurrence.ipynb --ExecutePreprocessor.timeout=-1
 ```
 
-A complete run takes about 12 to 16 minutes on one CPU core. The first cell sets `OPENBLAS_NUM_THREADS` and `OMP_NUM_THREADS` to one unless they are already set. The random test states use the NumPy seeds 20260922 and 20260923. SciPy's `expm_multiply` chooses its internal step count with a randomized norm estimator that draws from the global NumPy random state, which the notebook does not seed. Repeated runs therefore agree to rounding error. Numerically located times of extrema and zeros can change in their last digits, by up to about 3e-5 at very flat maxima. In our tests no value quoted in the article changed.
+A complete run takes about 12 to 16 minutes on one CPU core. The first cell sets `OPENBLAS_NUM_THREADS` and `OMP_NUM_THREADS` to one unless they are already set. The random test states use the NumPy seeds 20260922 and 20260923. SciPy's `expm_multiply` chooses its internal step count with a randomized norm estimator that draws from the global NumPy random state, which the first cell seeds with 20261124. In our tests, two runs in the same environment gave identical output apart from the recorded run times and the creation dates of the PDF files. On other platforms or with other library versions, numerically located times of extrema and zeros can change in their last digits, by up to about 3e-5 at very flat maxima. In our tests no value quoted in the article changed.
 
 ## Outputs
 
@@ -55,7 +55,7 @@ The folders `figs/` and `results/` in this repository contain the outputs of the
 
 ## Citation
 
-Please cite the article and the archived version of this code that you used. Each release is archived on Zenodo with its own DOI. The citation metadata are in `CITATION.cff`.
+Please cite the article and the release of this code that you used. Each release has a version tag. The citation metadata are in `CITATION.cff`.
 
 ## License
 

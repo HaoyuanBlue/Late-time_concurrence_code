@@ -1,4 +1,4 @@
-# Python 3.10 or later. The archived results were computed with Python 3.12.11.
+# Python 3.11 to 3.13. The archived results were computed with Python 3.12.11.
 numpy==2.3.3
 # SciPy 1.9 added the traceA argument of expm_multiply used by the notebook.
 scipy==1.15.3
